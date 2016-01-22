@@ -3,7 +3,7 @@ Provide a single base `DiscriminatorMapper` class that implements all the primit
 This approach has the advantage that knowledge about the mapping from discriminator values to concrete classes lives in a single place.
 
 For example, given classes like this:
-```
+```csharp
 enum Types
 {
     One = 1,
@@ -29,14 +29,14 @@ class ConcreteB : IBase
 ```
 
 You might register discriminator values like this:
-```
+```csharp
 var mapper = new EnumMapper<Types, IBase>(x => x.Type)
     .Register<ConcreteA>(Types.One)
     .Register<ConcreteB>(Types.Two);
 ```
 
 Finally, you might set up your JSON serializer with the following settings:
-```
+```csharp
 var resolver = new CamelCasePropertyNamesContractResolver();
 var converter = new EnumConverter(mapper, resolver.GetResolvedPropertyName);
 var settings = new JsonSerializerSettings
