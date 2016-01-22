@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscriminatedTypes", "DiscriminatedTypes\DiscriminatedTypes.csproj", "{4EAE1257-9BEA-42E2-8F99-3973A1D87ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTests", "JsonTests\JsonTests.csproj", "{1217FD59-C5D3-4C7D-AF63-98AF7C08F64F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoTests", "MongoTests\MongoTests.csproj", "{03B0FC0C-EDD2-4DB4-9B95-CB90D08E123A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EAE1257-9BEA-42E2-8F99-3973A1D87ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAE1257-9BEA-42E2-8F99-3973A1D87ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAE1257-9BEA-42E2-8F99-3973A1D87ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAE1257-9BEA-42E2-8F99-3973A1D87ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1217FD59-C5D3-4C7D-AF63-98AF7C08F64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1217FD59-C5D3-4C7D-AF63-98AF7C08F64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1217FD59-C5D3-4C7D-AF63-98AF7C08F64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1217FD59-C5D3-4C7D-AF63-98AF7C08F64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B0FC0C-EDD2-4DB4-9B95-CB90D08E123A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B0FC0C-EDD2-4DB4-9B95-CB90D08E123A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B0FC0C-EDD2-4DB4-9B95-CB90D08E123A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B0FC0C-EDD2-4DB4-9B95-CB90D08E123A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
