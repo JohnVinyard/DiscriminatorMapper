@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseCustomConverter.cs" />
+    <Compile Include="InterfaceInsteadOfBaseClassTests.cs" />
     <Compile Include="JsonDeserializationTests.cs" />
     <Compile Include="Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
