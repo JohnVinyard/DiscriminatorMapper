@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttributeBasedConfguration.cs" />
     <Compile Include="BaseCustomConverter.cs" />
     <Compile Include="InterfaceInsteadOfBaseClassTests.cs" />
     <Compile Include="JsonDeserializationTests.cs" />

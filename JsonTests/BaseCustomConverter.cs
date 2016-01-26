@@ -44,7 +44,9 @@ namespace JsonTests
             var name = _propertyNameTransformer(_discriminatorMapper.DiscriminatorName);
             var raw = jObject[name].ToString();
             var discriminator = _discriminatorMapper.Discriminator(raw);
-            return jObject.ToObject(_discriminatorMapper.ConcreteType(discriminator));
+            var instance = _discriminatorMapper.GetNewInstance(discriminator);
+            serializer.Populate(jObject.CreateReader(), instance);
+            return instance;
         }
 
         public override bool CanConvert(Type objectType)
